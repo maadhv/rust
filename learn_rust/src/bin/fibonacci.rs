@@ -13,7 +13,7 @@ fn fibo(n: i32)-> i32{
         return second;
     }
 
-    for i in 1..n-2{
+    for i in 2..n{
         let next = first + second;
         first = second;
         second = next;
